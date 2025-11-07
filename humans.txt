@@ -1,0 +1,5 @@
+# humans.txt
+Author: Francesca Tabor
+Website: https://www.francescatabor.com
+Purpose: Public content for research, citation, and AI visibility
+Robots: https://francesca-tabor.github.io/robots.txt
