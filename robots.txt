@@ -1,0 +1,84 @@
+# FrancescaTabor.com robots.txt
+# Canonical version hosted via GitHub Pages
+# Optimized for Search Engine + AI Crawler Visibility
+# Created November 2025
+
+# --- AI Crawlers (explicitly allowed) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# --- Search Engines (standard SEO visibility) ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# --- Default rules for all other crawlers ---
+User-agent: *
+Disallow: /config
+Disallow: /search
+Disallow: /account$
+Disallow: /account/
+Disallow: /commerce/digital-download/
+Disallow: /api/
+Allow: /api/ui-extensions/
+Disallow: /static/
+Disallow: /*?author=*
+Disallow: /*&author=*
+Disallow: /*?tag=*
+Disallow: /*&tag=*
+Disallow: /*?month=*
+Disallow: /*&month=*
+Disallow: /*?view=*
+Disallow: /*&view=*
+Disallow: /*?format=*
+Disallow: /*&format=*
+Disallow: /*?reversePaginate=*
+Disallow: /*&reversePaginate=*
+Allow: /
+
+# --- Sitemap reference ---
+Sitemap: https://www.francescatabor.com/sitemap.xml
+
+# --- Canonical host declaration ---
+Host: www.francescatabor.com
